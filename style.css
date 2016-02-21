@@ -1,0 +1,71 @@
+/*
+	Important info: half of the css was made to fix a stupid problem about centering the logo,
+	which was easily fixed on the <div>
+*/
+body { margin: 0; padding: 0; background: #fff; font-family: Calibri, Tahoma, Arial; }
+a { margin: 0; color: #996633; text-decoration:none; position: relative;}
+/*Hover not used*/
+a:hover { color: black; font-weight: bold;} 
+p { color: #000; }
+p:hover { opacity: 1; }
+
+.wrapper { margin: 0 auto 0; } 
+
+.link { top: 50%; font-size: 90%;}
+.link2 { color: black; font-weight: bold;} 
+
+#header {background: #fff; }
+#header h1 { color: #000; margin: 0; }
+
+#navigation { min-height: 10px; width: 100%; background: #1ab7ea; position: fixed; }
+.navbar ul { position: center; list-style-type: none; padding: 0; } /* before it was { margin: 0px 0 0 0; list-style-type: none; padding: 0; }*/
+.navbar li { display: inline-block; text-align:center;}
+.navbar li a { color: #fff; text-decoration: none; padding: 10px;}
+/*not used
+.fade {
+   opacity: 1;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
+*/
+/* In case we add something more than the map, is important to have the content well structurated*/ I
+#personalcontent { display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#content { width: 90%;  height: 80%;}
+
+#sidebar { width: 330px; float: left; overflow: auto; margin-top: 40px;}
+#sidebar h3 { color: #000; }
+
+
+/* testimonial not used */
+.testimonal {}
+.testimonial-title {}
+.testimonial-body {}
+.testimonial-meta {}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #1ab7ea;
+    margin-top: 10px; 
+}
+#footer ul { width: 560px; margin: 0 auto; padding: 0; list-style-type: none; }
+#footer ul li { display: inline; }
+#footer ul li a { padding: 0 1px; color: #fff;}
+#footer p { color: #1ab7ea; align: center; width: 60px; display: inline; }
+
+/* 	Colors to remind
+	nice grey #cccccc
+	blue #0664DE
+	green #9DFE74 */
